@@ -26,7 +26,7 @@ Be creative! One wish will be granted each update!
 
 		<h2>Make a wish</h2>
 		<p>I save wishes for future use, so please do not resend the same wish. :)</p>
-		<form method="post" action="4wish.php?thanks">
+		<form method="post" action="form_wish.php?thanks">
 		<input type="hidden" name="id" value="<?php echo $row[id]; ?>" />
 		<input type="hidden" name="name" value="<?php echo $row[name]; ?>" />
 		<input type="hidden" name="email" value="<?php echo $row[email]; ?>" />
